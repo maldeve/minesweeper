@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MineSweeper</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- create the display grid -->
+    <div id="gameGrid">
+        <canvas id="grid" width="400" height="400"></canvas>
+    </div>
+    <!-- define controls -->
+    <div id="moves">
+        <div id="timer">
+            0s
+        </div>
+        <div id="start" onclick="newGame();">
+            New Game!
+        </div>
+    </div>
+</body>
+
+</html>
